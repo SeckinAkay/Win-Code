@@ -1,1 +1,9 @@
+Windows Registry Editor Version 5.00
 
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shell\CopyToImportantFiles]
+"MUIVerb"="Dataya Gonder"
+"Icon"="imageres.dll,-5302"
+"Position"="Top"
+
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shell\CopyToImportantFiles\command]
+@="powershell.exe -NoProfile -Command \"Copy-Item -LiteralPath '%V' -Destination 'C:\\data' -Recurse -Force\""
