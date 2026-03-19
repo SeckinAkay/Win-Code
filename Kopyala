@@ -7,3 +7,16 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\AllFilesystemObjects\shell\CopyToImportantFiles\command]
 @="powershell.exe -NoProfile -Command \"Copy-Item -LiteralPath '%V' -Destination 'C:\\data' -Recurse -Force\""
+
+"Dataya Gonder" bu kısmı kendinize göre düzenleyin
+'C:\\data' bu kısmı kendinize göre düzenleyin ve son olarak bu iki satırı silerek reg uzantısı ile kaydedin
+
+
+İkinci Dosya olarak aşağıdaki komutları yeni bir dosyaya ekleyin ve reg uzantısı ile kayıt edin ve çalıştırın reg kaydını silecektir.
+
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\AllFilesystemObjects\shell\CopyToImportantFiles]
+
+Youtube Kanalımdan videosunu bulabilirsiniz.
+www.youtube.com/@akayseckin
