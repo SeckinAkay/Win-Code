@@ -1,1 +1,17 @@
+Restore the classic right click context menu.
+reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
 
+Restore the new Windows 11 right click context menu.
+reg.exe delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f
+
+
+explorer.exe yi durdurma ve başlatma komutları
+-------------------------------------------------
+taskkill /f /im explorer.exe
+
+start explorer.exe
+
+
+Youtube kanalımdan nasıl yapıldığını izleyebilirsiniz.
+
+www.youtube.com/@akayseckin
